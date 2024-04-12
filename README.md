@@ -2,10 +2,11 @@
 # README
 
 ## Introduction
-This repository contains Python code for predicting the education levels of Indian political candidates using their party affiliation, financial status, and constituency information.
 
-## Usage
-1. Clone this repository to your local machine.
-2. Ensure you have Python 3.x installed along with the required libraries: pandas, numpy, scikit-learn, seaborn, and matplotlib.
-3. Place your `train.csv` and `test.csv` datasets in the same directory as the code.
-4. Run the Python script `main.py`.
+This Jupyter Notebook (`main.ipynb`) presents a data analysis and machine learning approach to predict the education levels of Indian political candidates. The prediction is based on various features such as party affiliation, financial status (total assets and liabilities), constituency information, and candidate details.
+
+The dataset consists of two main files:
+- **train.csv**: This file contains the training data used to build and validate the machine learning model.
+- **test.csv**: This file contains the test data on which predictions will be made using the trained model.
+
+The notebook includes data preprocessing steps, exploratory data analysis, model training using the Random Forest Classifier, evaluation of the model's performance, and making predictions on the test dataset. Additionally, visualization techniques are employed to gain insights into the relationships between different features and the target variable (education level).
